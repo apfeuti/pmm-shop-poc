@@ -4,7 +4,7 @@
 ### Install prerequisites (depending what you have already installed on your computer, not all steps are required)
 0.1) Install utilities
 ```sh
-$ sudo apt install curl
+$ sudo apt-get install curl
 ```
 
 0.2) Install nodejs
