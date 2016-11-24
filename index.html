@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>POC product-configurator integrate into woocommerce</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="dimensionService.js"></script>
+</head>
+
+<body>
+    <div id='productparams'></div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label for="color">Color</label>
+                <select id="color" title="The color of your product">
+                    <option value="red">red</option>
+                    <option value="blue">blue</option>
+                    <option value="pink">pink</option>
+                    <option value="yellow">yellow</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="title">Title</label>
+                <input name="title" id="title" title="The title printed on your product"><br>
+            </div>
+
+            <div>
+                <label for="dimension">Dimension</label>
+                <input name="dimension" id="dimension" title="The backend-calculated dimension of your product" readonly><br>
+            </div>
+
+            <div>
+                <button type="button" title="Calculate dimension" onclick="calculateDimension()">Calculate dimension</button><br>
+            </div>
+
+            <div>
+                <label for="image">Upload image</label>
+                <input name="image" type="file" id="image" title="The image printed on your product"><br>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

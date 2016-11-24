@@ -1,0 +1,26 @@
+{
+  "name": "poc-pmm-woocommerce",
+  "version": "0.2.5",
+  "description": "Proof of concept: Integrate product-configurator into woocommerce",
+  "engines": {
+    "node": "4.2.6"
+  },
+  "main": "httpserver.js",
+  "scripts": {
+    "start": "node httpserver.js"
+  },
+  "dependencies": {
+    "express": "3.5.2",
+    "body-parser": "3.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apfeuti/pmm-shop-poc"
+  },
+  "keywords": [
+    "pmm",
+    "woocommerce",
+    "wordpress"
+  ],
+  "license": "MIT"
+}
